@@ -1,0 +1,222 @@
+html,
+body {
+  margin: 0;
+}
+
+.ant-layout.default {
+  min-height: 100vh;
+  padding: 0 15px;
+}
+.ant-layout.ant-layout-has-sider {
+  padding: 0;
+}
+.ant-layout.default > .ant-layout-content {
+  padding-top: 160px;
+}
+
+.ant-layout.default > .layout-wrapper {
+  padding: 80px;
+}
+
+.ant-layout-sider {
+  min-height: 100vh;
+}
+
+/* LOGIN PAGE */
+.form-wrapper {
+  padding: 34px 84px;
+  border: 1px solid #bbbbbb;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+label {
+  color: rgba(46, 45, 46, 1) !important;
+}
+
+.w-580 {
+  min-width: 580px;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ant-form-item .ant-form-item-explain-error {
+  text-align: left;
+}
+
+.breadcrumb {
+  margin-bottom: 26px;
+}
+
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px !important;
+}
+
+.margin-bottom-26 {
+  margin-bottom: 26px !important;
+}
+
+.ant-breadcrumb a:hover {
+  background: transparent !important;
+}
+
+.margin-top-92 {
+  margin-top: 92px !important;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  margin-top: 42px;
+}
+
+.link-wrapper {
+  margin-top: 30px;
+}
+
+.ant-layout .ant-layout-sider-zero-width-trigger {
+  top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .ant-layout.default > .layout-wrapper {
+    padding: 60px;
+  }
+  .form-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .ant-layout.default > .ant-layout-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 479px) {
+  .ant-layout .ant-layout-sider-zero-width-trigger {
+    width: 35px;
+    height: 35px;
+    inset-inline-end: -35px;
+    color: gray;
+    background: transparent;
+  }
+  .ant-layout.default > .layout-wrapper {
+    padding: 40px;
+  }
+  #form_user_create {
+    padding: 0;
+  }
+}
+
+.ant-form-item-label {
+  padding: 0 !important;
+}
+
+.ant-spin-container .ant-row div {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.ant-modal-header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  margin-bottom: 20px !important;
+}
+
+.ant-table-wrapper {
+  margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+  .ant-table-wrapper .ant-table-thead > tr > th:first-child,
+  .ant-table-wrapper .ant-table-tbody > tr > th:first-child,
+  .ant-table-wrapper .ant-table-tbody > tr > td:first-child,
+  .ant-table-wrapper tfoot > tr > th:first-child,
+  .ant-table-wrapper tfoot > tr > td:first-child {
+    padding-left: 0;
+  }
+  .ant-table-wrapper .ant-table-thead > tr > th:last-child,
+  .ant-table-wrapper .ant-table-tbody > tr > th:last-child,
+  .ant-table-wrapper .ant-table-tbody > tr > td:last-child,
+  .ant-table-wrapper tfoot > tr > th:last-child,
+  .ant-table-wrapper tfoot > tr > td:last-child {
+    padding-right: 0;
+    text-align: right;
+  }
+  .ant-table-wrapper .ant-table-tbody > tr:last-child > td {
+    border-bottom: 0;
+  }
+}
+@media (max-width: 479px) {
+  .ant-table-wrapper .ant-table {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.modal-crop-image .ant-modal-close {
+  display: none;
+}
+
+.modal-crop-image .ant-btn-default {
+  display: none;
+}
+
+.ant-upload-list-item-actions a {
+  display: none;
+}
+
+.modal-upload-video {
+  margin-top: 10px;
+  height: unset !important;
+}
+
+.ant-card-cover img {
+  border-radius: 8px !important;
+}
+
+@media (min-width: 768px) {
+  .hide-lg {
+    display: none !important;
+  }
+}
+
+.video-lesson-detail {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.hidden-lesson {
+  display: none;
+}
+
+
+
+
+
